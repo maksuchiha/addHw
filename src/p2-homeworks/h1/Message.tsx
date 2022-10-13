@@ -2,7 +2,7 @@ import React from 'react'
 import s from './Message.module.css'
 
 
-type propsType = {
+type PropsType = {
     data: {
         avatar: string
         name: string
@@ -11,7 +11,7 @@ type propsType = {
     }
 }
 
-function Message(props: propsType) {
+function Message(props: PropsType) {
     return (
         <div className={s.message}>
             <div className={s.message__img}>
