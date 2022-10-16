@@ -10,6 +10,7 @@ test('find text "test message name"', () => {
     const linkElement = getByText(/some text/i)
     expect(linkElement).toBeInTheDocument()
 })
+
 // test('find text "test message"', () => {
 //     const {getByText} = render((
 //         <Message
